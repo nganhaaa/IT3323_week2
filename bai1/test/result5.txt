@@ -182,4 +182,3 @@
 38-5:KW_END
 39-1:KW_END
 39-4:SB_PERIOD
-39-25:End of comment expected!
