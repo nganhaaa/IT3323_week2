@@ -3,10 +3,12 @@
 PROGRAM  EXAMPLE5;  (* Example 5 *)
 CONST MAX = 10;
 TYPE T = INTEGER;
+//hhhh
 VAR  A : ARRAY(. 10 .) OF T;
      N : INTEGER;
      CH : CHAR;
      B : BYTES;
+     KK : STRING;
 
 PROCEDURE INPUT;
 VAR I : INTEGER;
@@ -38,6 +40,7 @@ BEGIN
     REPEAT
      BEGIN
        S := S + A(.I.)**2;
+       S % A;
        I := I**2 + 1;
      END
      UNTIL I > N;

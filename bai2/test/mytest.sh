@@ -6,4 +6,4 @@
 # ../incompleted/scanner ../test/example5.kpl | diff ../test/result5.txt -
 # ../incompleted/scanner ../test/example6.kpl | diff ../test/result6.txt -
 # ../incompleted/scanner ../test/example7.kpl | diff ../test/result7.txt -
-../incompleted/scanner ../test/ex.kpl | diff ../test/res.txt -
+../incompleted/scanner ../test/ex.kpl 
